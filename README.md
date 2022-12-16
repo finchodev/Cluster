@@ -13,8 +13,8 @@ Read the documentation below to find out more.</p>
 </div>
 
 <p align="center">
-<a href="https://heroku.com/deploy?template=https://github.com/ZeltuxDev/Cluster"><img height="30px" src="https://raw.githubusercontent.com/ZeltuxDev/Cluster/main/static/deploy/heroku.svg"><img></a>
-<a href="https://repl.it/github/ZeltuxDev/Cluster"><img height="30px" src="https://raw.githubusercontent.com/ZeltuxDev/Cluster/main/static/deploy/replit.svg"><img></a>
+<a href="https://heroku.com/deploy?template=https://github.com/ZeltuxDev/Cluster"><img height="30px" src="https://raw.githubusercontent.com/ZeltuxDev/Cluster/87e5b319d225242a1ba9e5a04b77850f6083d48b/static/deploy/heroku.svg?token=AXCFULXK327KEEPSOAOBWHDDTTZES"><img></a>
+<a href="https://repl.it/github/ZeltuxDev/Cluster"><img height="30px" src="https://raw.githubusercontent.com/ZeltuxDev/Cluster/87e5b319d225242a1ba9e5a04b77850f6083d48b/static/deploy/replit.svg?token=AXCFULSGXDKLWRVONPRHE6LDTTZGW"><img></a>
 </p>
 
 ## Documentation
