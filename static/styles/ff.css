@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../resources/Poppins-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    background-origin: padding-box;
+    font-family: Poppins, sans-serif;
+}
+
+html{
+    font-size: 16px;
+    background-color: #222222;
+}
+
+.calc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px #424242;
+}
+
+.cal-cont{
+    background-color: #333333;
+    width: 600px;
+    height: min-content;
+}
+
+.output{
+    width: 100%;;
+}   
+
+.operation{
+    width: 600px;
+    height: 70px;
+    color: #878787;
+    font-size: 1.9em;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+.operation .value{
+    position: absolute;
+    bottom: 5px;
+    right : 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.result{
+    width: 600px;
+    height: 140px;
+    color: #FFF;
+    font-size: 2.6em;
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+}
+
+.result .value{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right : 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.input{
+    background-color: #333;
+    height: calc(19em);
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.row button{
+    width: 68px;
+    height: 68px;
+    border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    color: #ff6eed;
+    background: #444444;
+    border: none;
+    font-size: 22px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin: 4px;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.row button:hover{
+    color: #ffb8f6;
+    background: #262525;
+}
+
+.row #calculate{
+    color: #FFF;
+    background-color: #ff95f6;
+    width: calc(20em);
+    border-radius: 7px;
+}
+
+.row #calculate:hover {
+    background-color: #ff60f1;
+}
+
+.row #delete:hover {
+    color: #ffffff;
+    background: #ff7676;
+}
+
+#division, #multiplication, #subtraction, #addition {
+    color: #ff5fea;
+}
+
+.input button span{
+    font-size: 0.6em;
+    position: absolute;
+}
+
+.active-angle{
+    background-color: #1d1d1d !important;
+    color: #FFF !important;
+    border-radius: 10px !important;
+}
+
+.resent {
+    color: #ff6eed;
+}
+
+button:focus-visible {
+    outline: 1px solid #ff60f1;
+    border: none;
+}
+
+#clear:hover {
+    background: #ff9b9b;
+    color: #ffffff;
+}
+
+#addition:hover {
+    color: #f8b1f6;
+}
