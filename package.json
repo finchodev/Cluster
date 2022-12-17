@@ -1,7 +1,11 @@
 {
   "dependencies": {
     "bare-server-node": "github:tomphttp/bare-server-node",
-    "node-static": "^0.7.11"
+    "cooljs": "^1.0.4",
+    "express": "^4.18.2",
+    "node-static": "^0.7.11",
+    "opn": "^6.0.0",
+    "ws": "^8.11.0"
   },
   "name": "uv-app",
   "version": "1.0.0",

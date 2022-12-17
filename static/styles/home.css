@@ -28,8 +28,8 @@
 }
 
 @font-face {
-    font-family: Fracital;
-    src: url(../resources/Fracital.ttf);
+    font-family: Cluster;
+    src: url(../resources/Cluster.ttf);
 }
 
 @keyframes fadeInAnimation {
@@ -333,6 +333,8 @@ pre.merge-begin+pre>span:first-child {
     align-items: center;
     justify-items: center;
     z-index: 1;
+    margin-bottom: 12px;
+    text-decoration: underline;
 }
 
 p.info {
@@ -429,18 +431,24 @@ body>p.info {
 }
 
 .focusLetter {
-    font-family: Fracital;
-    color: #fa15d8cc;
+    font-family: Cluster;
+    background: -webkit-linear-gradient(270deg, rgba(250,0,255,1) 0%, rgba(160,1,163,1) 46%, rgba(95,0,97,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: .3s;
-    font-size: 63px;
+    font-size: 103px;
     cursor: default;
     overflow: hidden;
-    padding-bottom: 1px;
+    padding-bottom: 3px;
+    text-decoration: underline;
 }
 
 .focusLetter:hover {
-    color: #fa15d8cc;
-    font-size: 69px;
+    background: -webkit-linear-gradient(270deg, rgba(250,0,255,1) 0%, rgba(160,1,163,1) 46%, rgba(95,0,97,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 109px;
+    text-decoration: underline;
 }
 
 footer {
@@ -448,21 +456,17 @@ footer {
 }
 
 .patlink {
-    color: #ffffff;
+    color: #a3a3a3;
     font-weight: normal;
-    margin: 4px 0;
+    text-align: center;
+    padding: 3px;
+    margin-top: 18px;
 }
 
-.patlinkc {
-    text-decoration: underline;
-    color: #f084ff;
-    margin-left: 5px
-}
-
-.patlinkc:hover {
+.patlink:hover {
     text-decoration: none;
     cursor: pointer;
-    color: #fff
+    color: #a3a3a3;
 }
 
 .space {
