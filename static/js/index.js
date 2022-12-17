@@ -19,6 +19,14 @@ settb.addEventListener("click", () => {
   frame.src = "settings.html"
 })
 
+gab.addEventListener("click", () => {
+  frame.src = "g.html"
+})
+
+miscb.addEventListener("click", () => {
+  frame.src = "misc.html"
+})
+
 let tlds = [".com", ".net", ".org", ".co", ".lol", ".gg", ".fun", ".ga", ".xyz", ".to", ".cc", ".info", ".io", ".tv"];
 
 document.cookie="olds=sus";
