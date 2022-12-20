@@ -65,7 +65,8 @@ body {
 .settingsT {
     font-family: segoeB;
     margin: 0;
-    text-align: center
+    text-align: center;
+    font-size: 3em;
 }
 
 .titles {

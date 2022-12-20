@@ -8,31 +8,6 @@ const droppiebtn = document.getElementById("droppiebtn");
 const droppies = document.getElementById("droppies");
 const dialogsL = document.getElementById("dialogsL");
 
-droppiebtn.addEventListener("click", () => {
-    if(droppies.classList.contains("hide")) {
-        droppies.classList.remove("hide");
-        droppies.classList.add("showPP");
-        droppies.classList.add("animateDropPP");
-        if(droppies.classList.contains("noOpac")) {
-            droppies.classList.remove("noOpac")
-        }
-        if(droppies.classList.contains("animateDrop")) {
-            droppies.classList.remove("animateDrop");
-        }
-    } else if(droppies.classList.contains("showPP")) {
-        droppies.classList.remove("showPP");
-        droppies.classList.add("noOpac");
-        myTime = setTimeout(() =>{
-            droppies.classList.add("hide");
-            clearTimeout(myTime);
-        }, 500);
-        if (qld.classList.contains("open")) {
-            qld.classList.remove("open");
-            qld.classList.add("hidden");
-        }
-    }
-});
-
 function serLF() {
     search.classList.remove("borderSY");
     search.classList.add("borderSN");

@@ -60,10 +60,6 @@ const twtch = document.getElementById("twtch");
 const inst = document.getElementById("inst");
 // End //
 
-document.getElementById("bug").addEventListener("click", () => {
-  go("github.com/NovaAppsInc/fracital-proxy/issues");
-});
-
 // Quick Launch functions //
 ggl.addEventListener("click", () => {
   go("google.com");
@@ -126,20 +122,6 @@ function reloadh() {
 document.getElementById("frame").setAttribute('src', 'home.html');
 }
 
-// function bing() {
-// if (frame.contentDocument.getElementsByClassName("video-ads")[0].innerHTML !== "") {
-//   var banner = false;
-//   for (var i = 0; i < frame.contentDocument.getElementsByClassName("ytp-ad-overlay-close-button").length; i++) {
-//       frame.contentDocument.getElementsByClassName("ytp-ad-overlay-close-button")[i].click();
-//       banner = true;
-//   };
-//   if (banner === false) { 
-//       frame.contentDocument.getElementsByClassName("html5-main-video")[0].currentTime = frame.contentDocument.getElementsByClassName("html5-main-video")[0].duration; 
-//       frame.contentDocument.getElementsByClassName("ytp-ad-skip-button")[0].click(); 
-//   };
-// }
-// }
-
 const alertb = document.getElementById("alertb");
 
 document.addEventListener("keydown", e => {
@@ -182,35 +164,6 @@ urlbar.addEventListener("blur", () => {
   toolb.classList.remove("toolbarH");
 });
 
-// alertb.addEventListener("click", () => {
-//   go("github.com/NovaAppsInc/fracital-proxy/blob/main/cloaking.md")
-// });
-
-// let hovfull = selectElement(".hovfull");
-// let toolbg = selectElement(".toolbar");
-
-// hovfull.addEventListener("mouseover", function (event) {
-//   myTimeout = setTimeout(function() {
-//     if(toolbg.classList.contains("full")) {
-//       toolbg.classList.remove("full");
-//       toolbg.classList.add("fs");
-//     }
-//   }, 300);
-// })
-// hovfull.addEventListener("mouseleave", () => {
-//   toolbg.addEventListener("mouseover", () => {
-//     return;
-//   });
-//   toolbg.addEventListener("mouseleave", () => {
-//     if(toolbg.classList.contains("fc")) {
-//       return;
-//     } else if(!toolbg.classList.contains("fc")){
-//       toolbg.classList.add("full");
-//     }
-//     clearTimeout(myTimeout);
-//   });
-// });
-
 function lyric() {
   let query = prompt("song name and/or artist");
   if(query == false) {
@@ -222,25 +175,3 @@ function lyric() {
     }
   }
 }
-
-// selectElement("#fullscreen").addEventListener("click", () => {
-// if(toolbg.classList.contains("fs")) {
-//     toolbg.classList.add("fc");
-//     toolb.classList.remove("fs");
-//     return;
-//   } else if(!toolbg.classList.contains("fs") || !toolbg.classList.contains("fc")) {
-//     toolbg.classList.add("full"); 
-//   }
-// });
-
-// switch (localStorage.getItem("theme")) {
-//   case 'lime':
-//     document.getElementById("rels").href = "../styles/lime.css";
-//     break;
-//   case 'amoled':
-//     document.getElementById("rels").href = "../styles/amoled.css";
-//     break;
-//   case 'classic':
-//     document.getElementById("rels").href = "../styles/style.css";
-//     break;
-// }

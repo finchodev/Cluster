@@ -431,8 +431,9 @@ body>p.info {
 }
 
 .focusLetter {
-    font-family: Cluster;
-    background: -webkit-linear-gradient(270deg, rgba(250,0,255,1) 0%, rgba(160,1,163,1) 46%, rgba(95,0,97,1) 100%);
+font-family: Cluster;
+background: -webkit-linear-gradient(270deg, rgba(250,0,255,1) 0%, rgba(160,1,163,1) 46%, rgba(95,0,97,1) 100%);
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .3s;
@@ -440,15 +441,17 @@ body>p.info {
     cursor: default;
     overflow: hidden;
     padding-bottom: 3px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .focusLetter:hover {
-    background: -webkit-linear-gradient(270deg, rgba(250,0,255,1) 0%, rgba(160,1,163,1) 46%, rgba(95,0,97,1) 100%);
+background: -webkit-linear-gradient(270deg, rgba(250,0,255,1) 0%, rgba(160,1,163,1) 46%, rgba(95,0,97,1) 100%);
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 109px;
     text-decoration: underline;
+    text-decoration: none;
 }
 
 footer {

@@ -715,15 +715,11 @@ a.linkAl {
   margin-right: 6px;
 }
 
-.settb:hover, .settic, .gab:hover, .miscb:hover {
-  fill: #f28bff
-  visibleFill: 20%;
-}
-
 .settb:hover, .gab:hover, .miscb:hover {
   cursor: pointer;
   color: #f28bff;
-  background: #363636
+  background: #363636;
+  opacity: 80%;
 }
 
 .sha {
